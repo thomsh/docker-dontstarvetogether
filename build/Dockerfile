@@ -1,5 +1,4 @@
-FROM dstacademy/steamcmd:0.4
-MAINTAINER DST Academy <support@dst.academy>
+FROM steamcmd:latest
 
 # Install dependencies.
 RUN set -x \
